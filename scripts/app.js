@@ -1,16 +1,9 @@
-// Small progressive enhancement: fade-in on scroll
 const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('in');
-  });
+  entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('in'); });
 }, { threshold: 0.12 });
-
-document.querySelectorAll('.card, .logo-card, .section h2, .hero .badge').forEach(el => {
-  el.classList.add('reveal');
-  observer.observe(el);
+document.querySelectorAll('.card, .logo-card, .section h2, .hero .badge, .team-card').forEach(el => {
+  el.classList.add('reveal'); observer.observe(el);
 });
-
-// Accessibility: reduce motion preference
 const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (!prefersReduced) {
   const style = document.createElement('style');

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 380">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 420">
   <defs>
     <linearGradient id="g" x1="0" x2="1">
       <stop offset="0" stop-color="#42C4FF" />
@@ -6,34 +6,34 @@
     </linearGradient>
     <style>
       .t { font: 600 16px 'Inter', system-ui, sans-serif; fill: #0B2234; }
-      .s { fill: url(#g); }
       .b { fill: white; stroke: #164B7A; stroke-opacity:.2; stroke-width:2; rx:16; }
+      .cap { font: 500 13px 'Inter', system-ui, sans-serif; fill: #5A6B7A; }
     </style>
   </defs>
   <rect width="100%" height="100%" fill="#F7FBFF"/>
   <g transform="translate(30,40)">
-    <rect class="b" x="0" y="0" width="260" height="100" />
-    <text class="t" x="20" y="36">Sourcing & Diligence</text>
-    <text class="t" x="20" y="64">• biology • unmet need • IP • path</text>
+    <rect class="b" x="0" y="0" width="280" height="110" />
+    <text class="t" x="20" y="36">SOURCING & DILIGENCE</text>
+    <text class="cap" x="20" y="64">biology · unmet need · IP · clinical path</text>
   </g>
-  <g transform="translate(360,40)">
-    <rect class="b" x="0" y="0" width="260" height="100" />
-    <text class="t" x="20" y="36">Incubation</text>
-    <text class="t" x="20" y="64">• PoC • CMC • IND-enabling</text>
+  <g transform="translate(350,40)">
+    <rect class="b" x="0" y="0" width="280" height="110" />
+    <text class="t" x="20" y="36">INCUBATION (BIOLABS)</text>
+    <text class="cap" x="20" y="64">PoC · CMC · IND-enabling</text>
   </g>
-  <g transform="translate(690,40)">
-    <rect class="b" x="0" y="0" width="260" height="100" />
-    <text class="t" x="20" y="36">Spinout</text>
-    <text class="t" x="20" y="64">• team • milestones • governance</text>
+  <g transform="translate(670,40)">
+    <rect class="b" x="0" y="0" width="280" height="110" />
+    <text class="t" x="20" y="36">SPINOUT</text>
+    <text class="cap" x="20" y="64">team · milestones · governance</text>
   </g>
-  <g transform="translate(190,220)">
-    <rect class="b" x="0" y="0" width="600" height="100" />
-    <text class="t" x="20" y="36">Scale & Partnering</text>
-    <text class="t" x="20" y="64">• Soar Biolabs (operate) • Soar BioVentures (fund)</text>
+  <g transform="translate(190,230)">
+    <rect class="b" x="0" y="0" width="600" height="110" />
+    <text class="t" x="20" y="36">SCALE & PARTNERING</text>
+    <text class="cap" x="20" y="64">Soar Biolabs (operate) · Soar BioVentures (fund)</text>
   </g>
-  <g class="arrows" stroke="url(#g)" stroke-width="6" fill="none" stroke-linecap="round">
-    <path d="M305,90 C335,90 345,90 355,90"/>
-    <path d="M630,90 C660,90 670,90 680,90"/>
-    <path d="M420,270 C450,270 530,270 560,270"/>
+  <g stroke="url(#g)" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M320,95 L350,95"/>
+    <path d="M640,95 L670,95"/>
+    <path d="M420,285 L560,285"/>
   </g>
 </svg>
